@@ -10,8 +10,3 @@ for(let i = 0; i < numberOfCategories.length; i += 1) {
     console.log(`Elements (by the children): ` + numberCategoryEl[i].children.length);
 }
 
-// const list = document.querySelector('#categories');
-// const items = list.querySelectorAll('.item');
-// console.log(`В списке ${items.length} категории:`);
-// items.forEach(node => {const h2 = node.querySelector('h2');const nodeItems = node.querySelectorAll('li');
-// console.log(` - категория: ${h2.textContent} (количество элементов: ${nodeItems.length})`);}); 
